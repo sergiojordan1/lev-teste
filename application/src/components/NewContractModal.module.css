@@ -1,0 +1,86 @@
+.modalOverlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  .modalContent {
+    background-color: #333;
+    color: #eee;
+    padding: 20px;
+    border-radius: 5px;
+    width: 80%;
+    max-width: 600px;
+  }
+  
+  .modalContent h3 {
+    margin-top: 0;
+    margin-bottom: 15px;
+  }
+  
+  .formGroup {
+    margin-bottom: 15px;
+  }
+  
+  .formGroup label {
+    display: block;
+    margin-bottom: 5px;
+    color: #ccc;
+  }
+  
+  .formGroup input[type="text"],
+  .formGroup input[type="date"],
+  .formGroup select {
+    width: calc(100% - 20px);
+    padding: 10px;
+    border: 1px solid #555;
+    border-radius: 3px;
+    background-color: #444;
+    color: #eee;
+    box-sizing: border-box;
+  }
+  
+  .modalActions {
+    margin-top: 20px;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .modalActions button {
+    padding: 10px 15px;
+    margin-left: 10px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 1em;
+  }
+  
+  .modalActions button:first-child {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .modalActions button:first-child:hover {
+    background-color: #0056b3;
+  }
+  
+  .modalActions button:last-child {
+    background-color: #6c757d;
+    color: white;
+  }
+  
+  .modalActions button:last-child:hover {
+    background-color: #5a6268;
+  }
+  
+  .error {
+    color: #ff6666;
+    margin-bottom: 10px;
+  }

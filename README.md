@@ -27,9 +27,9 @@ Abra o seu terminal e navegue até o diretório onde você deseja clonar o proje
 
 * Navegue até a pasta `raiz` do projeto e instale as dependencias:
 
-        npm install
-        # ou
-        yarn install
+    npm install
+    # ou
+    yarn install
 
 * Configure as variáveis de ambiente:
 
@@ -42,15 +42,15 @@ Abra o seu terminal e navegue até o diretório onde você deseja clonar o proje
 
 No terminal, dentro da pasta `raiz`, execute o seguinte comando para iniciar o servidor:
 
-        npm run dev
-        # ou
-        yarn dev
+    npm run dev
+    # ou
+    yarn dev
 
 O servidor backend deve estar rodando em `http://localhost:3001` (ou na porta que você alterou no .env).
 
 **4. Executar scripts iniciais:**
 
-* Executar scrips para adicionar um usuário admin para conseguir fazer login e acessar o dashboard.
+Executar scrips para adicionar um usuário admin para conseguir fazer login e acessar o dashboard.
 
 * **Adicionar Usuario Admin:** No terminal, dentro da pasta raiz, execute o seguinte comando para criar um usuário admin.
 
@@ -59,9 +59,9 @@ O servidor backend deve estar rodando em `http://localhost:3001` (ou na porta qu
     ```
 * **IMPORTANTE:** Para acessar o dashboard, é preciso fazer login com o **login** `email@admin.com` e a **senha** `admin123`.
 
-* Executar scrips para adicionar alguns registros na tabela de contratos para a visualização no dashboard.
+Executar scrips para adicionar alguns registros na tabela de contratos para a visualização no dashboard.
 
-* * **Adicionar Contratos:** No terminal, dentro da pasta raiz, execute o seguinte comando para criar um usuário admin.
+* **Adicionar Contratos:** No terminal, dentro da pasta raiz, execute o seguinte comando para criar um usuário admin.
 
     ```bash
     node scripts/addContracts.js

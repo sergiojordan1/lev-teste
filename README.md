@@ -20,31 +20,37 @@ Siga os passos abaixo para configurar o projeto:
 
 Abra o seu terminal e navegue até o diretório onde você deseja clonar o projeto. Execute o seguinte comando:
 
-    git clone [URL_DO_SEU_REPOSITORIO]
-    cd [NOME_DO_SEU_REPOSITORIO]
+```
+git clone [URL_DO_SEU_REPOSITORIO]
+cd [NOME_DO_SEU_REPOSITORIO]
+```
 
 **2. Configurar o backend:**
 
 * Navegue até a pasta `raiz` do projeto e instale as dependencias:
 
-    npm install
-    # ou
-    yarn install
+```
+npm install
+# ou
+yarn install
+```
 
 * Configure as variáveis de ambiente:
 
-    No arquivo `.env` dentro da pasta `raiz` substitua a string de conexão do mongodb e as portas caso necessário:
+No arquivo `.env` dentro da pasta `raiz` substitua a string de conexão do mongodb e as portas caso necessário:
 
-        PORT=3001 # Ou outra porta de sua preferência para o backend
-        MONGODB_URI=mongodb://localhost:27017/lev-teste # Substitua por sua URI do MongoDB
+    PORT=3001 # Ou outra porta de sua preferência para o backend
+    MONGODB_URI=mongodb://localhost:27017/lev-teste # Substitua por sua URI do MongoDB
 
 **3. Executar o servidor do backend:**
 
 No terminal, dentro da pasta `raiz`, execute o seguinte comando para iniciar o servidor:
 
-    npm run dev
-    # ou
-    yarn dev
+```
+npm run dev
+# ou
+yarn dev
+```
 
 O servidor backend deve estar rodando em `http://localhost:3001` (ou na porta que você alterou no .env).
 
@@ -54,38 +60,45 @@ Executar scrips para adicionar um usuário admin para conseguir fazer login e ac
 
 * **Adicionar Usuario Admin:** No terminal, dentro da pasta raiz, execute o seguinte comando para criar um usuário admin.
 
-    ```bash
-    node scripts/addUserAdmin.js
-    ```
+```bash
+node scripts/addUserAdmin.js
+```
+
 * **IMPORTANTE:** Para acessar o dashboard, é preciso fazer login com o **login** `email@admin.com` e a **senha** `admin123`.
 
 Executar scrips para adicionar alguns registros na tabela de contratos para a visualização no dashboard.
 
 * **Adicionar Contratos:** No terminal, dentro da pasta raiz, execute o seguinte comando para criar um usuário admin.
 
-    ```bash
-    node scripts/addContracts.js
-    ```
+```bash
+node scripts/addContracts.js
+```
 
 **5. Configurar o Frontend:**
 
 * Acesse o projeto do frontend está dentro da pasta `application`:
 
-        cd application
+```
+cd application
+```
 
 * Instale as dependências do frontend:
 
-        npm install
-        # ou
-        yarn install
+```
+npm install
+# ou
+yarn install
+```
 
 **6. Executar o frontend:**
 
 No terminal, ainda dentro da pasta `application`, execute o seguinte comando para iniciar a aplicação React:
 
-        npm start
-        # ou
-        yarn start
+```
+npm start
+# ou
+yarn start
+```
 
 A aplicação frontend deve abrir automaticamente no seu navegador em `http://localhost:3000`.
 

@@ -21,8 +21,8 @@ Siga os passos abaixo para configurar o projeto:
 Abra o seu terminal e navegue até o diretório onde você deseja clonar o projeto. Execute o seguinte comando:
 
 ```
-git clone [URL_DO_SEU_REPOSITORIO]
-cd [NOME_DO_SEU_REPOSITORIO]
+git clone https://github.com/sergiojordan1/lev-teste.git
+cd lev-teste
 ```
 
 **2. Configurar o backend:**
